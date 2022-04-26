@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de gatos, producto, pago">
+    <meta name="keywords" content="gatos, producto, pago">
+    <meta name="author" content="José Hernández" />
+    <link rel="shortcut icon" type="image/jpg" href="/assets/images/logo.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Pago</title>
+</head>
+<body>
+
+    <header class="header-container fade-down">
+
+        <picture class="header-container__container-image">
+            <a class="header-container__enlace" href="index.html">
+                <img class="header-container__logo" src="assets/images/logo.png" alt="Logo Brand" title="Brand">
+            </a>
+        </picture>
+
+        <nav class="header-container__container-nav">
+            <ul class="header-container__ul">
+                <li class="header-container__container-li">
+                    <a class="header-container__link" href="faqs.html">FAQ´S</a>
+                </li>
+                <li class="header-container__container-li">
+                    <a class="header-container__link" href="producto_descripcion.html">Producto y descripción</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="seccion-principal">
+
+        <section class="container-pago">
+
+            <h1 class="container-pago__titulo-principal">Pago</h1>
+
+            <section class="container-pago__container-producto-formulario">
+
+                <section class="container-pago__container-producto">
+                    <figure class="container-pago__container-imagen-producto">
+                        <img class="container-pago__imagen-producto" src="/assets/images/box2.png" alt="Gato" title="Gato" width="150" height="150">
+                    </figure>
+                    <section class="container-pago__container-titulo-descripcion-producto">
+                        <h2 class="container-pago__titulo-producto">Producto</h2>
+                        <p class="container-pago__descripcion-producto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, ducimus facilis! Vel, quia beatae id molestiae nemo quisquam quos architecto!</p>
+                    </section>
+                </section>
+
+                <section class="container-pago__container-formulario">
+                    <form class="container-pago__container-inputs-button" action="exito.html">
+                        <label class="container-pago__label" for="nombre">Nombre</label>
+                        <input class="container-pago__input" type="text" name="nombre" id="" required autocomplete="off" placeholder="Nombre">
+                        <label class="container-pago__label" for="email">Email</label>
+                        <input class="container-pago__input" type="email" name="email" id="" required autocomplete="off" placeholder="Email">
+                        <label class="container-pago__label" for="telefono">Teléfono</label>
+                        <input class="container-pago__input" type="tel" name="telefono" id="" required autocomplete="off" placeholder="Telefono">
+                        <button class="container-pago__boton" type="submit">Confirmar pago</button>
+                    </form>
+
+                </section>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="footer-container">
+
+        <section class="footer-container__social">
+            <div class="footer-container__icons-container">
+                <div class="footer-container__social-icons-container">
+                    <a href="https://es-la.facebook.com/" target="_blank" rel="noreferrer">
+                        a
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="footer-container__social-icons-container">
+                    <a href="https://twitter.com/home?lang=es" target="_blank" rel="noreferrer">
+                        b
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>
+                <div class="footer-container__social-icons-container">
+                    <a href="https://www.instagram.com/?hl=es-la" target="_blank" rel="noreferrer">
+                        c
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="footer-container__social-icons-container">
+                    <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
+                        d
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+                <div >
+                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+                        e
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-container__copyright-container">
+            <p class="footer-container__copyright">Todos los derechos reservados</p>
+        </section>
+
+        <section class="footer-container__info-user-container">
+            <span class="footer-container__name">Cat store</span>
+            <a class="footer-container__number" href="tel:+">0424-123-45-67</a>
+            <a class="footer-container__email" href="mailto:">email@cats.com</a>
+        </section>
+
+    </footer>
+
+</body>
+</html>
