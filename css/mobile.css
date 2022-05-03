@@ -1,0 +1,17 @@
+/* MEDIA QUERIES */
+
+/* MOBILE */
+
+@media(min-width: 575px){
+    
+    .header-container{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        /*padding: 0rem 1rem;*/
+    }
+
+    .header-container__container-image{
+        margin-bottom: 0rem;
+    }
+
+}

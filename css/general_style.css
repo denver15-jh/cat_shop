@@ -125,7 +125,7 @@ body{
     background-color: var(--color-white);
     height: 60rem;
     width: 100%;
-    background-image: url('/assets/images/curve.png');
+    background-image: url('../assets/images/curve.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -583,115 +583,4 @@ body{
     padding: 1rem;
     color: var(--color-black);
     border: 0;
-
-}
-
-/*MEDIA QUERIES*/
-
-@media(min-width: 575px){
-    
-    .header-container{
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        /*padding: 0rem 1rem;*/
-    }
-
-    .header-container__container-image{
-        margin-bottom: 0rem;
-    }
-
-}
-
-@media(min-width: 768px){
-
-    .section-uno-title__title{
-        margin: 0 16%;
-    }
-
-    .section-dos-backgroung{
-        height: 40rem;
-    }
-
-    .section-dos-backgroung__container-card{
-        max-width: 32rem;
-    }
-
-    .section-tres-cards__container-card{
-        max-width: 32rem;
-    }
-
-    .section-cuatro-cards__container-card{
-        max-width: 32rem;
-    }
-
-    .footer-container{
-        flex-direction: row;
-    }
-
-    .footer-container__social{
-        margin-top: 0rem;
-    }
-
-    .footer-container__copyright-container{
-        margin: 0rem 0rem;
-    }
-
-    .footer-container__info-user-container{
-        margin-bottom: 0rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    /* PROODUCTO DESCRIPCION */
-
-    .container-producto-descripcion__container-producto{
-        flex-direction: row;
-    }
-
-    .container-producto-descripcion__titulo-principal{
-        text-align: left;
-    }
-
-    .container-producto-descripcion__container-imagen-producto{
-        width: 40%;
-    }
-
-    .container-producto-descripcion__container-imagen-producto--right{
-        order: 2;
-    }
-    
-    .container-producto-descripcion__imagen-producto{
-
-    }
-    
-    .container-producto-descripcion__container-descripcion{
-        width: 60%;
-    }
-
-    .container-producto-descripcion__container-descripcion--left{
-        order: 1;
-    }
-
-    /* PAGO */
-
-    .container-pago__container-producto-formulario{
-        flex-direction: row;
-    }
-    
-    .container-pago__container-producto{
-        width: 40%;
-        margin-bottom: 0;
-    }
-    
-    .container-pago__container-formulario{
-        width: 60%;
-    }
-    
-    .container-pago__container-inputs-button{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-
 }
