@@ -107,7 +107,6 @@ body{
 }
 
 .section-uno-title__container-title{
-    /*background-color: red;*/ 
     margin: 0rem 2rem;
 }
 
@@ -125,7 +124,7 @@ body{
     background-color: var(--color-white);
     height: 60rem;
     width: 100%;
-    background-image: url('../assets/images/curve.png');
+    background-image: url('./assets/images/curve.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
